@@ -1,0 +1,27 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body {
+    background-color: #1fb7da;
+}
+h1 {
+    color: blanchedalmond;
+}
+h2 {
+    color: blanchedalmond;
+}
+.card {
+    background-color: rgb(247, 208, 247);
+}
+input, textarea, select {
+    box-sizing: border-box;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}

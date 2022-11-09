@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-xxl">
-              <a class="navbar-brand" href="#">МойПриют</a>
+              <a class="navbar-brand">МойПриют</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -23,10 +23,6 @@
                     <a class="nav-link" href="/register.php">Оставить заявку</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Поиск животного" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Найти</button>
-                </form>
               </div>
             </div>
           </nav>
