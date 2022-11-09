@@ -17,9 +17,9 @@ h2 {
 input, textarea, select {
     box-sizing: border-box;
     display: block;
-    width: 250px;
-    height: 30px;
-    margin-bottom: 15px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
 }
 textarea {
     height: 100px;
