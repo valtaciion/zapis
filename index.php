@@ -7,6 +7,7 @@
     <title>Document</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
     <header>
@@ -45,26 +46,47 @@
     <section>
         <div class="container-xxl">
             <h2>Наши животные</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+            <div class="row">
+                <div class="col">
+                    <div class="card w-100">
+                        <img src="https://e-rodnik.ru/wp-content/uploads/2022/04/1561011204_5.jpg" class="card-img-top" alt="Кот британец">
+                        <div class="card-body">
+                            <p class="card-text">Добрый серый кот британец. Отзывается на имя Барсик.</p>
+                            <h6>Хотите посмотреть вживую?</h6>
+                            <a href="/register.php" class="btn btn-primary">Оставьте заявку</a>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="col">
+                    <div class="card w-100">
+                        <img src="https://lapkins.ru/upload/uf/7db/7db4dd21e7b9c0b3bf0f589d63d855d6.jpg" class="card-img-top" alt="Пес бульдог">
+                        <div class="card-body">
+                            <p class="card-text">Английский бульдог. Не требует систематического купания.</p>
+                            <h6>Хотите посмотреть вживую?</h6>
+                            <a href="/register.php" class="btn btn-primary">Оставьте заявку</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100">
+                        <img src="https://chudo-prirody.com/uploads/posts/2021-08/1628810662_173-p-polosatii-kot-foto-193.jpg" class="card-img-top" alt="Кот европеец">
+                        <div class="card-body">
+                            <p class="card-text">Активный и веселый полосатый кот европеец. Любит играть с мячиком.</p>
+                            <h6>Хотите посмотреть вживую?</h6>
+                            <a href="/register.php" class="btn btn-primary">Оставьте заявку</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100">
+                        <img src="https://bestpopugai.ru/wp-content/uploads/2022/04/20-6.jpg" class="card-img-top" alt="Попугай ара">
+                        <div class="card-body">
+                            <p class="card-text">Яркий беззаботный попугай ара. Предпочитает долгие беседы.</p>
+                            <h6>Хотите посмотреть вживую?</h6>
+                            <a href="/register.php" class="btn btn-primary">Оставьте заявку</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
